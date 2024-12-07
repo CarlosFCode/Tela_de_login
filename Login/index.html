@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div class="container">
+        <h2>Login</h2>
+        <form">
+            <p id="name">Name</p>
+            <input id="namei" onblur="blur1()" onfocus="focus1()" type="text" required>
+
+            <p id="passwrd">Password</p>
+            <div id="password-container">
+                <input onblur="blur2()" onfocus="focus2()" id="password" type="password" required>
+                <span id="toggle-password" class="eye-icon">&#128065;</span>
+            </div>
+            <button type="submit">Login</button>
+        </form>
+        </div>
+    </main>
+</body>
+<script src="script.js"></script>
+</html>
